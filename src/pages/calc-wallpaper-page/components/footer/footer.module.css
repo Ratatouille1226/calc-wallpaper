@@ -137,6 +137,10 @@ footer {
   
     }
 
+    .calc_materials {
+        margin-left: 40px;
+    }
+
     .result {
         margin-right: 5px;
     }
@@ -147,3 +151,10 @@ footer {
         width: 220px;
     }
  }
+
+ @media(max-width: 350px) { 
+    .calc_materials {
+        margin-left: 17px;
+    }
+}
+

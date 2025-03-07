@@ -89,7 +89,7 @@ export const CalcWallpaper = () => {
 
     return (
         <div className={styles['wrapper']}>
-            <nav className={styles['content']}>
+            <div className={styles['content']}>
                 <Link to="/"><img className={styles['back']} src={backImg} alt="close"/></Link>
 
                 <div className={styles['calc']}>
@@ -136,7 +136,7 @@ export const CalcWallpaper = () => {
                     />
                 </div>
 
-            </nav>
+            </div>
         </div>
     )
 }

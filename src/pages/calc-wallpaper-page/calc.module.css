@@ -10,7 +10,7 @@
 
 .content {
     width: 990px;
-    height: 1356px;
+    height: 1156px;
     border-radius: 18px;
     background-color: #FFFFFF;
 }
@@ -59,6 +59,33 @@
         margin-left: 25px;
     }
 
+    .wrapper {
+        background-color: #ffffff;
+    }
+}
+
+@media(max-width: 400px) {
+    .params_door-window {
+        margin-left: 12%;
+    }
+}
+
+@media(max-width: 425px) {
+    .params_door-window {
+        margin-left: 15%;
+    }
+}
+
+@media(max-width: 360px) {
+    .params_door-window {
+        margin-left: 8%;
+    }
+}
+
+@media(max-width: 330px) {
+    .params_door-window {
+        margin-left: 4%;
+    }
 }
 
 @media(max-width: 1000px) {
