@@ -76,6 +76,12 @@
     }
 }
 
+@media(max-width: 376px) {
+    .params_door-window {
+        margin-left: 11%;
+    }
+}
+
 @media(max-width: 360px) {
     .params_door-window {
         margin-left: 8%;
