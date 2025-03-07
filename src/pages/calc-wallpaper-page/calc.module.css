@@ -1,0 +1,68 @@
+
+.wrapper {
+    max-width: 1920px;
+    height: 1419px;
+    background-color: #F5F7F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 990px;
+    height: 1356px;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+}
+
+.back {
+    width: 36px;
+    height: 36px;
+    float: right;
+    margin: 20px;
+}
+
+.calc {
+    height: 1048px;
+    max-width: 830px;
+    margin: 58px 80px 0px 80px;
+}
+
+.title {
+    margin-bottom: 24px;
+    color: #111111CC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.params_room {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+ input:focus {
+    outline: none;
+  }
+
+
+
+@media(max-width: 570px) {
+    .calc {
+        margin: 58px 18px 0px 18px;
+    }
+    .content {
+        height: 1873px;
+
+    }
+    .calc  h1 {
+        margin-left: 25px;
+    }
+
+}
+
+@media(max-width: 1000px) {
+    .content {
+        height: 1403px;
+    }
+}
