@@ -90,7 +90,7 @@ export const CalcWallpaper = () => {
     return (
         <div className={styles['wrapper']}>
             <div className={styles['content']}>
-                <Link to="/main"><img className={styles['back']} src={backImg} alt="close"/></Link>
+                <Link to="/"><img className={styles['back']} src={backImg} alt="close"/></Link>
 
                 <div className={styles['calc']}>
                     <h1 className={styles['title']}>Параметры комнаты</h1>

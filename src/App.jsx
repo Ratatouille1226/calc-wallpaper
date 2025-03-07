@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/main' element={<MainPage />} />
+        <Route path='/' element={<MainPage />} />
         <Route path='/calc-wallpaper' element={<CalcWallpaper />} />
       </Routes>
     </>
