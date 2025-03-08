@@ -76,9 +76,9 @@
     }
 }
 
-@media(max-width: 376px) {
+@media(max-width: 395px) {
     .params_door-window {
-        margin-left: 11%;
+        margin-left: 10%;
     }
 }
 

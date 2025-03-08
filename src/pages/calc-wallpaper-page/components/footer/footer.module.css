@@ -130,14 +130,15 @@ footer {
     }
 }
 
-@media(max-width: 400px) { 
+@media(max-width: 420px) { 
     .result_block {
         width: 240px;
   
     }
 
+
     .calc_materials {
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     .result {
@@ -154,6 +155,12 @@ footer {
  @media(max-width: 350px) { 
     .calc_materials {
         margin-left: 17px;
+    }
+}
+
+@media(max-width: 395px) { 
+    .calc_materials {
+        margin-left: 33px;
     }
 }
 
