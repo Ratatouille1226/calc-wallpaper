@@ -55,8 +55,8 @@
         height: 1873px;
 
     }
-    .calc  h1 {
-        margin-left: 25px;
+    .calc .title  h1 {
+        margin-left:-30px;
     }
 
     .wrapper {
