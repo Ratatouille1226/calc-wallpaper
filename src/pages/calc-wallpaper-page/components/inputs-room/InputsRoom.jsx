@@ -10,7 +10,7 @@ export const InputsRoom = ({ setRoom, room, validation, errors }) => {
                 value={room.lengtH}
                 onChange={({target}) => setRoom({ ...room, lengtH: +target.value })} 
                 type="number" 
-                placeholder="6.5"
+                placeholder={errors.lengtH ? 'Не должно быть пустым' : '6.5'}
                 onBlur={validation}
             />
         </div>
@@ -20,7 +20,7 @@ export const InputsRoom = ({ setRoom, room, validation, errors }) => {
                 value={room.width}
                 onChange={({target}) => setRoom({ ...room, width: +target.value })} 
                 type="number" 
-                placeholder="6.5"
+                placeholder={errors.width ? 'Не должно быть пустым' : '6.5'}
                 onBlur={validation}
             />
         </div>
@@ -30,7 +30,7 @@ export const InputsRoom = ({ setRoom, room, validation, errors }) => {
                 value={room.height}
                 onChange={({target}) => setRoom({ ...room, height: +target.value })} 
                 type="number" 
-                placeholder="6.5"
+                placeholder={errors.height ? 'Не должно быть пустым' : '6.5'}
                 onBlur={validation}
             />
         </div>

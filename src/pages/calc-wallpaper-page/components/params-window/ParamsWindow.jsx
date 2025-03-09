@@ -1,7 +1,8 @@
 import styles from './paramsWindow.module.css';
 import backImg from '../../../../assets/calc-assets/Button.png';
+import addWindowDoor from '../../../../assets/calc-assets/addWindowDoor.png';
 
-export const ParamsWindow = ({ errors, validation, onRemoveWindow, setWindow, window, onAddNewWindow, addWindowDoor }) => {
+export const ParamsWindow = ({ errors, validation, onRemoveWindow, setWindow, window, onAddNewWindow }) => {
 
     return (
         <section className={styles['params_window']}>

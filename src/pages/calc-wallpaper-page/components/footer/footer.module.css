@@ -133,10 +133,12 @@ footer {
 @media(max-width: 420px) { 
     .result_block {
         width: 240px;
-  
+
     }
-
-
+    .result {
+        margin-left: 5px;
+        height: 451px;
+    }
     .calc_materials {
         margin-left: 50px;
     }

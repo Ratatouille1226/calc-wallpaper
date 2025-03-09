@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom"
 
 import backImg from '../../assets/calc-assets/Button.png';
-import addWindowDoor from '../../assets/calc-assets/addWindowDoor.png';
 
 import { ParamsWindow, ParamsDoor, ParamsRollRapport, InputsRoom, Footer } from './components/index';
 
@@ -45,7 +44,7 @@ export const CalcWallpaper = () => {
 
     //Показывать результат выполнения
     const onShowResult = () => {
-        setIsCalcMaterials(true);
+            setIsCalcMaterials(true);
     }
     //Добавление окна
     const onAddNewWindow = () => {
@@ -115,7 +114,6 @@ export const CalcWallpaper = () => {
                                 setWindow={setWindow}
                                 window={window} 
                                 onAddNewWindow={onAddNewWindow} 
-                                addWindowDoor={addWindowDoor}
                             />
                             <ParamsDoor 
                                 errors={errors}
@@ -123,7 +121,6 @@ export const CalcWallpaper = () => {
                                 door={door} 
                                 onRemoveDoor={onRemoveDoor} 
                                 onAddNewDoor={onAddNewDoor} 
-                                addWindowDoor={addWindowDoor}
                                 setDoor={setDoor}
                             />
                         </div>
@@ -133,6 +130,7 @@ export const CalcWallpaper = () => {
                         isCalcMaterials={isCalcMaterials} 
                         onShowResult={onShowResult} 
                         onReset={onReset}
+                        errors={errors}
                     />
                 </div>
 
