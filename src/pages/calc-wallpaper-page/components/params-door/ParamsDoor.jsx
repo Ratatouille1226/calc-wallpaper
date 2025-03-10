@@ -1,6 +1,7 @@
 import styles from  '../params-window/paramsWindow.module.css';
 import backImg from '../../../../assets/calc-assets/Button.png';
 import addWindowDoor from '../../../../assets/calc-assets/addWindowDoor.png'
+import PropTypes from 'prop-types';
 
 export const ParamsDoor = ({ errors, validation, door, onRemoveDoor, onAddNewDoor, setDoor }) => {
 
@@ -52,3 +53,12 @@ export const ParamsDoor = ({ errors, validation, door, onRemoveDoor, onAddNewDoo
         </section>
     );
 }
+
+ParamsDoor.propTypes = {
+    errors: PropTypes.array,
+    door: PropTypes.array,
+    validation: PropTypes.func,
+    onRemoveDoor: PropTypes.func,
+    onAddNewDoor: PropTypes.func,
+    setDoor: PropTypes.func,
+};

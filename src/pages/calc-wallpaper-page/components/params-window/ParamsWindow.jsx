@@ -1,6 +1,7 @@
 import styles from './paramsWindow.module.css';
 import backImg from '../../../../assets/calc-assets/Button.png';
 import addWindowDoor from '../../../../assets/calc-assets/addWindowDoor.png';
+import PropTypes from 'prop-types';
 
 export const ParamsWindow = ({ errors, validation, onRemoveWindow, setWindow, window, onAddNewWindow }) => {
 
@@ -52,3 +53,12 @@ export const ParamsWindow = ({ errors, validation, onRemoveWindow, setWindow, wi
         </section>
     )
 }
+
+ParamsWindow.propTypes = {
+     errors: PropTypes.array,
+     validation: PropTypes.func,
+     window: PropTypes.object,
+     onRemoveWindow: PropTypes.func,
+     setWindow: PropTypes.func,
+     onAddNewWindow: PropTypes.func,
+ };

@@ -1,4 +1,5 @@
 import styles from './inputs.module.css';
+import PropTypes from 'prop-types';
 
 export const InputsRoom = ({ setRoom, room, validation, errors }) => {
 
@@ -37,3 +38,10 @@ export const InputsRoom = ({ setRoom, room, validation, errors }) => {
         </>
     );
 }
+
+InputsRoom.propTypes = {
+    setRoom: PropTypes.func,
+    room: PropTypes.object,
+    validation: PropTypes.func,
+    errors: PropTypes.array,
+};

@@ -1,4 +1,5 @@
  import styles from './paramsRollRapport.module.css';
+ import PropTypes from 'prop-types';
 
  export const ParamsRollRapport = ({ wallpaper, setWallpaper, rapport, setRapport }) => {
 
@@ -47,3 +48,10 @@
         </section>
     );
  }
+
+ ParamsRollRapport.propTypes = {
+     wallpaper: PropTypes.object,
+     setWallpaper: PropTypes.func,
+     rapport: PropTypes.object,
+     setRapport: PropTypes.func,
+ };

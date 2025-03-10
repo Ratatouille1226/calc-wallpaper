@@ -1,5 +1,6 @@
 import styles from './footer.module.css';
 import iconButton from '../../../../assets/main-assets/magic-wand.png';
+import PropTypes from 'prop-types';
 
 export const Footer = ({ calcMaterials, isCalcMaterials, onShowResult, onReset }) => {
 
@@ -40,3 +41,10 @@ export const Footer = ({ calcMaterials, isCalcMaterials, onShowResult, onReset }
         </footer>
     )
 }
+
+Footer.propTypes = {
+    calcMaterials: PropTypes.func,
+    isCalcMaterials: PropTypes.bool,
+    onShowResult: PropTypes.func,
+    onReset: PropTypes.func,
+};
